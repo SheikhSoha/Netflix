@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
+@media only screen and (min-width:445px),(max-width:2000px){
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', "Varela", sans-serif;
+    ;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+    height:70vh;
+    position: relative;
+
+}
+
+.main input {
+    padding: 10px 36px;
+    border-radius: 4px;
+    background-color: rgba(20, 20, 20, 0.7);
+    border: 1px solid rgba(255, 243, 243, 0.5);
+    color: white;
+}
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    color: rgb(136, 1, 1);
+    width: 140px;
+    position: absolute;
+    z-index: 10;
+   
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Varela", sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 17px;
+    padding: 29 30px;
+}
+
+.child1 {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+}
+
+.child2 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.child3 {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.separation {
+margin-top: 110px;
+
+    height: 7px;
+    background-color: rgb(63, 59, 59);
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(119, 112, 112, 0.2);
+    color: white
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 4px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    max-width: 30;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+
+}
+.first{
+    display: flex;
+    margin-top: 10%;
+    max-width: 70vw;
+    justify-content: center;
+
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secimg img{
+    width: 32vw;
+    height: 22vw;
+    position: relative;
+    z-index: 10;
+}
+.sec img{
+    position: relative;
+}
+.secimg video{
+    position:absolute;
+    height: 17vw;
+    right: 15%;
+    
+
+
+    margin-top: 22;
+    
+}
+.f1{ width: max-content;}
+}
